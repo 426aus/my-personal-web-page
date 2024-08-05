@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bo-Yuan Deng's Personal Webpage</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-image: url('banner.jpg'); /* Path to your banner image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            height: 200px; /* Adjust this value as needed */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            padding: 2rem;
+            padding-bottom: 7rem; /* Extra padding to ensure space for footer */
+        }
+
+        .section {
+            display: none; /* Hide sections by default */
+            margin-bottom: 2rem;
+        }
+
+        .active {
+            display: block; /* Show only the active section */
+        }
+
+        footer {
+            background-color: #007BFF; /* Blue color */
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            height: 5rem; /* Adjust height as needed */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .profile-pic {
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .portfolio-img, .resume-img, .cv-img, .major-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        iframe {
+            width: 560px; /* Set to desired width */
+            height: 315px; /* Set to desired height */
+            border: none;
+            margin-bottom: 1rem; /* Adds space below each iframe */
+        }
+
+        .about-me p {
+            text-indent: 2rem; /* Adjust this value as needed for indentation */
+            text-align: justify; /* Justify the text */
+        }
+
+        .contact-info {
+            line-height: 1.6;
+        }
+
+        .contact-info img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto 0; /* Adds space above and centers the image */
+        }
+
+        .projects-info {
+            line-height: 1.6;
+        }
+
+        .introduction {
+            font-size: 20px; /* Set font size for introduction paragraph */
+            text-indent: 2rem; /* Add indentation */
+            text-align: justify; /* Justify the text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bo-Yuan Deng (Ray Deng)</h1>
+        <p>ESL/EFL Teacher</p>
+    </header>
+    <nav>
+        <a onclick="showSection('home')">Home</a>
+        <a onclick="showSection('projects')">Projects</a>
+        <a onclick="showSection('portfolio')">Portfolio</a>
+        <a onclick="showSection('resume')">Resume</a>
+        <a onclick="showSection('cv')">CV</a>
+        <a onclick="showSection('blog')">Blog</a>
+        <a onclick="showSection('contact')">Contact Information</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section active">
+            <h2>About Me</h2>
+            <img src="bo-yuan-deng.jpg" alt="Bo-Yuan Deng" class="profile-pic">
+            <p class="introduction">Bo-Yuan Deng is a research assistant in the Department of English at the National Kaohsiung University of Science and Technology in Taiwan. He graduated from the Department of English at the National Kaohsiung University of Science and Technology, specializing in Applied Linguistics and TESOL. His research interests include computer-assisted language learning (CALL), approaches to English as a Second/Foreign Language (ESL/EFL), and Applied Linguistics.</p>
+            <p><strong>M.A.: </strong>Applied Linguistics and TESOL, NKUST, Kaohsiung, Taiwan</p>
+            <p><strong>B.A.: </strong>Department of English, NKUST, Kaohsiung, Taiwan</p>
+            <p><strong>Senior High: </strong>Language Acquiring & Cross-Cultural Learning, Marsden High School, Sydney, Australia</p>
+            <img src="major.jpg" alt="Major" class="major-img">
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Check out my work below:</p>
+            <h3>My YouTube Channel</h3>
+            <p>Visit my YouTube channel for more videos: <a href="https://www.youtube.com/channel/UCMi1nrsDw_l0Z-7iVBOBTAg" target="_blank">Bo-Yuan Deng's YouTube Channel</a></p>
+            <h3>Coding and Programming</h3>
+            <iframe src="https://www.youtube.com/embed/ZW6aSjTRDY0?si=TAp7bVddAAJR8Ncx" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/3CGDYFP34KA?si=qelICDcQRprxTFdy" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/JBLUmWHgIOs?si=b_Lut0ZoaL035zP9" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/UX6m4NCFpjE?si=o2t1UuGqORgsZFc8" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/40tkp56wST8?si=i9uKa_Udze1WapPn" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/MkXM6QZrq-A?si=qrt4JN4lWGX-ESaN" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/O16qv0DDoUE?si=PW21Izb4OQYVSwcr" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/E9ki_iokvGo?si=zBJSDDUuRbWTT6b5" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/hGJAuqA611c?si=ElvZf8U0RoItIUY0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/lTU_jwlCBzM?si=RDpPhDD_hVSLYjUp" allowfullscreen></iframe>
+
+            <!-- New Section for Tools Deserve a Try -->
+            <h3>Tools Deserve a Try</h3>
+            <iframe src="https://www.youtube.com/embed/mDGd6KVlmYc?si=AUY10a2wQ61O-ZiS" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/3bgER_fRAf8?si=aA_0-Bfu-crtdlbv" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/p0_BmSqbHvM?si=tCjyUb4-TLizWElp" allowfullscreen></iframe>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <img src="portfolio.jpg" alt="Portfolio" class="portfolio-img">
+        </section>
+        <section id="resume" class="section">
+            <h2>Resume</h2>
+            <img src="resume.jpg" alt="Resume" class="resume-img">
+        </section>
+        <section id="cv" class="section">
+            <h2>Curriculum Viate</h2>
+            <img src="cv1.jpg" alt="CV Part 1" class="cv-img">
+            <img src="cv2.jpg" alt="CV Part 2" class="cv-img">
+            <img src="cv3.jpg" alt="CV Part 3" class="cv-img">
+        </section>
+                <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Welcome to my blog! Here, I will post updates, thoughts, and articles related to my work and interests. Stay tuned!</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p>PHONE: (+886) 920-271-383</p>
+                <p>EMAIL: <a href="mailto:boyuandeng426@gmail.com">boyuandeng426@gmail.com</a></p>
+                <p>LINE ID: 0920271383</p>
+                <p>WORKING HOURS: 9 a.m. to 9 p.m., Wednesday to Saturday (By Appointment)</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bo-Yuan Deng. All rights reserved.</p>
+    </footer>
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            // Show the selected section
+            document.getElementById(sectionId).classList.add('active');
+        }
+
+        // Initialize with 'home' section active
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('home');
+        });
+    </script>
+</body>
+</html>
